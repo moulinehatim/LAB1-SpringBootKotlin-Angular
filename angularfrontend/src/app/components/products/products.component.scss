@@ -1,0 +1,33 @@
+
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+img{
+    width: 100%;
+}
+.product-container{
+    border-radius: 10px;
+    margin-left: 32px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+
+    margin: 16px;
+    max-width: 200px;
+    height:400px;
+    border-right: none;
+    background: #002b5c6c;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
